@@ -1,0 +1,40 @@
+.pointer-body{
+    padding:18px;
+}
+.pointer-body h4{
+    margin:20px 0 16px;
+}
+.pointer-body input, .pointer-body textarea{
+    width:100%;
+    padding:14px;
+    border:none;
+    box-shadow: -5px 0 6px -5px rgba(158, 158, 158, 0.5), 
+    0 5px 6px -5px rgba(158, 158, 158, 0.5); 
+    border:1px solid rgb(235, 235, 235);
+    border-radius: 4px;
+}
+.pointer-body input:focus .pointer-body textarea:focus{
+    outline: none;
+}
+.pointer-body textarea{
+    height:120px;
+    resize: none;
+}
+.content-options{
+    box-shadow: -5px 0 6px -5px rgba(158, 158, 158, 0.5),
+    5px 0 6px -5px rgba(158, 158, 158, 0.5),
+    0 5px 6px -4px rgba(102, 102, 102, 0.5); 
+    padding:16px;
+    margin-bottom: 3px;
+    font-size: 16px;
+    border-radius: 8px;
+    color:rgb(119, 118, 118);
+}
+.content-options span , .content-options i{
+    margin:0 8px;
+    cursor: pointer;
+}
+.bg-grey{
+    background-color: rgb(219, 219, 251);
+    padding: 2px 9px;
+}

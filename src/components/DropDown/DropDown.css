@@ -1,0 +1,26 @@
+.dropdown-container h4 , .example-container h4{
+   padding:12px;
+   border:1px solid rgb(200, 198, 198);
+   border-radius: 4px;
+}
+.dropdown-container > h4 i{
+    margin-right: 12px;
+}
+.dropdown-container > div{
+    font-size: 14px;
+    flex-direction: column;
+}
+.dropdown-container > div p{
+    padding:12px 0 12px 18px ;
+}
+.dropdown-container > div a{
+    align-self: flex-end;
+    margin:18px 0;
+}
+.example-container{
+    margin-top:10px;
+    margin-left: 30px;
+}
+.example-container p{
+    padding-top: 10px;
+}

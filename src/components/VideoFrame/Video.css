@@ -1,0 +1,9 @@
+.videoContainer {
+    padding-bottom: 56.25%;
+    position: relative;
+  }
+  
+  .videoContainer iframe {
+    height: 100%;
+    position: absolute;
+  }
