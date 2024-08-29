@@ -8,7 +8,7 @@ export default function DropDown({data})
             <h4><i className={open ? "fa-solid fa-angle-up" : "fa-solid fa-angle-up"} onClick={()=> setOpen((prev) => !prev)}></i> {data.title}</h4>
         <div style={{display:open? 'flex' : 'none'}}>
             <p>{data.content}</p>
-            <a href='#'>See More</a>
+            <a href="/">See More</a>
             {
                 data.examples !== undefined && <div>{
                     (data.examples).map((e) => <div className='example-container'>
