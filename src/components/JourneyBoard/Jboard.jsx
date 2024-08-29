@@ -10,7 +10,7 @@ export default function Jboard(){
     return <div className='board' style={{left:isOpen? "0":"-200px"}}>
         <div className='j-Top'>
             <h3>Journey Borad</h3>
-            <a href='/' className={isOpen? "fa-solid fa-arrow-left" : "fa-solid fa-arrow-right"} onClick={()=>{ setOpen((prev) => !prev)}}></a>
+            <i className={isOpen? "fa-solid fa-arrow-left" : "fa-solid fa-arrow-right"} onClick={()=>{ setOpen((prev) => !prev)}}></i>
         </div>
         <div className='j-Bottom'>
             <div className='j-Bottom-content' style={{opacity:isOpen?"1":"0"}}>
